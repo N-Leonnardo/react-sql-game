@@ -1,38 +1,140 @@
-.App {
+
+*{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App{
+  background-color: #222328;
+  width: 100vw;;
+  min-height: 100vh ;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  padding-top: 50px;
+}
+
+.question-container{
+  display: flex;
+  flex-direction: column;
+}
+
+.display-image{
+  width: 30em;
+  height: 200px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.question-text{
+  margin-top: 1em;
+  font-weight: 100;
+}
+
+.question-container-text{
   text-align: center;
+  background-color: #36383F;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: .5em;
+
+  font-weight: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+.text-container{
+  background-color: #2b362a;
+  border-radius: 1em;
+  margin-top: 1em;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+  width: 30em;
+  height: 20em;
+
 }
 
-.App-link {
-  color: #61dafb;
+.answer-container-box{
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.answer-container{
+  resize: none;
+  font-family: 'Source Code Pro', monospace;
+  color: yellow;
+
+  font-size: 14pt;
+  font-weight: 600;
+
+  border: 1px solid rgba(138, 138, 138, 0.203);
+  border-radius: 10px;
+  margin-top: 1em;
+  background-color: #232C22;
+  width: 90%;
+  height: 80%;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* CIRCLES */
+.top-items{
+  padding: 8px 0 0 0px;
+  width: 95%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.red-circle { 
+  width: 15px;
+  height: 15px;
+  background: rgb(222, 72, 72); 
+  border-radius: 70px;
+  margin-right: 5px;
+}
+.yellow-circle { 
+  width: 15px;
+  height: 15px;
+  background: rgb(237, 235, 101); 
+  border-radius: 70px;
+  margin-right: 5px;
+}
+.green-circle { 
+  width: 15px;
+  height: 15px;
+  background: rgb(99, 142, 81); 
+  border-radius: 70px;
+  margin-right: 5px;
+}
+
+.three-circles{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+.run-section button{
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 5px;
+  border: none;
+  background-color: #49c03e;
+  width: 80px;
 }
