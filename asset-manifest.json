@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-sql-game/static/css/main.dd2eacc7.css",
+    "main.js": "/react-sql-game/static/js/main.9a6f6964.js",
+    "static/js/787.972507c0.chunk.js": "/react-sql-game/static/js/787.972507c0.chunk.js",
+    "index.html": "/react-sql-game/index.html",
+    "main.dd2eacc7.css.map": "/react-sql-game/static/css/main.dd2eacc7.css.map",
+    "main.9a6f6964.js.map": "/react-sql-game/static/js/main.9a6f6964.js.map",
+    "787.972507c0.chunk.js.map": "/react-sql-game/static/js/787.972507c0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd2eacc7.css",
+    "static/js/main.9a6f6964.js"
+  ]
+}
